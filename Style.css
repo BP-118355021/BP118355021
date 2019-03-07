@@ -1,0 +1,173 @@
+header
+		{
+		top:0%;
+		left:0%;
+		width:100%;
+		height:21%;
+		position:absolute;
+		background:#006600;
+		text-align: Bottom;
+		
+		color:#09090a;
+		font-family:verdana;
+		background-image:url(paper1.jpg);
+		
+		}
+		
+		#Title
+		{
+			top: 20%;
+			left: 40%;
+			width: 35%;
+			height: 80%;
+			position: center;	
+			background:'transparent';
+			z-index:10;
+			-moz-transition: left 1s ease-in-out;
+			-webkit-transition: left 1s ease-in-out;
+			transition: left 1s ease-in-out;
+
+			
+		}
+		
+		#Content
+		{
+			top: 25%;
+			left: 0%;
+			width:100%;
+			height: 70%;
+			background:url(paper1.jpg);
+			position: absolute;
+			text-align:left;
+			z-index: 10;
+			color:#09090a;
+                        font-size:25px;
+			background-image:url(paper1.jpg);
+			
+		}
+                #Content1
+		{
+			top: 25%;
+			left: 0%;
+			width:100%;
+			
+			background:url(paper1.jpg);
+			position: absolute;
+			text-align:left;
+			z-index: 10;
+			color:#09090a;
+                        font-size:25px;
+			background-image:url(paper1.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin:0;
+			
+		}
+                
+		#Main{
+			top: 9%;
+			left: 18%;
+			width:64%;
+			height: 71%;
+			background:'transparent';
+			position: absolute;
+			text-align:left;
+			z-index: 10;
+                        font-size: 25px;
+			color:#09090a;
+			font-family:verdana;
+			
+		}
+                #SportMain{
+			top: 30%;
+			
+			
+			background:'transparent';
+                       background-image:url(paper3.jpg);
+			position: absolute;
+			text-align:left;
+                        font-size:20px;
+			z-index: 10;
+			color:#09090a;
+			font-family:verdana;
+			
+		}
+		
+		#Footer
+		{
+		position:absolute;
+		height:10%;
+		top:98%;
+		left:0%;
+		width:100%;
+		border-top:1px solid #0066cc;
+		background:#09090a;
+		z-index:90;
+		color:#FFFFFF;
+		text-decoration:none;
+		text-align: center;
+		vertical-align: middle;
+		padding-top:5px;
+		font-family:verdana;
+		}
+
+		#menu {
+			top:21%;
+			left:0%;
+                    
+			width:100%;
+			position:Absolute;
+			background:#09090a;
+			border-bottom: 1px solid #0066cc;
+			z-index:100;
+                      
+                          
+			
+		}
+		
+		#menu ul {
+		list-style: none;
+		float: left;
+	
+		}
+		#menu ul {
+			margin-left: 15%;
+		}
+
+		#menu li {
+			position: relative;
+			z-index: 9;
+			margin-top: 2px;
+			padding: 0 0px 0 0;
+			display: block;
+			float: left;
+		}
+		#menu a{
+		text-decoration:none;
+		color:white;
+		font-family:Verdana;
+		margin-right:40px;
+		}
+		
+		#menu a:hover{
+		background:#0066cc;
+		color:#FFFFFF;
+		padding:10px;
+		-webkit-border-radius: 1em 1em 1em 1em;
+		-moz-border-radius: 1em 1em 1em 1em;
+		border-radius: 1em 1em 1em 1em;
+		}
+
+	
+		
+		
+		/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Feb-2019, 17:23:36
+    Author     : 118355021
+*/
+
