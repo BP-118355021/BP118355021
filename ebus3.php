@@ -14,24 +14,16 @@
 			</ul>
 		</div>
     </head>
+    <header> <h1> Purchase Receipt:</h1></header>
     <body>
         
         <!-- //Starting the session to get the session variable from last page.-->
-        <h1> Purchase Receipt:</h1>
-        
-        <pre>
-            
-
-
-
-
-
-
-
-
-        </pre>
+      
 <div id="Content1">
+    <pre>
+        
 
+    </pre>
         
         <?php
        
@@ -41,6 +33,9 @@
         echo "The name is : ".$fullNameValue.".";
         echo "<br></br>";
         echo "The total value is ".$totalValue.".";
+   
+        
+   
        
         ?>
 </div>

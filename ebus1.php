@@ -11,8 +11,9 @@ $_SESSION['txtTotal'] = $totalValue;
           <title> Ebusiness 1</title>
           <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
-    
    
+    <header></header>
+    
     <body>
         <div id="menu">
 			<ul>
@@ -23,14 +24,10 @@ $_SESSION['txtTotal'] = $totalValue;
                                 <li><a href="ebus1.php">EBusiness</a></li>
 			</ul>
 		</div>
-        <pre>
-            
-
-
-
-        </pre>
+  
    
         <div class="form">
+            <div id="Content1">
             <form name="intCalc" method="post" action="eBus2.php">
                   <h1>Shop Calculator</h1>
                
@@ -87,6 +84,7 @@ $_SESSION['txtTotal'] = $totalValue;
                 </center>
             </form>
         </div>
+        </div>
        
         <script type="text/javascript">
             function calcSub() {
@@ -133,7 +131,7 @@ $_SESSION['txtTotal'] = $totalValue;
                 document.getElementById('txtVat').value ="";
                 document.getElementById('txtTotal').value ="";
             }
-           
+          
         </script>
     </body>
 </html>

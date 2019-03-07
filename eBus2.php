@@ -82,6 +82,7 @@ input[type=submit] {
     </head>
     <body>
         <div class="form">
+            
             <form name="Details" method="post" action="eBus3.php">
                 <center>
                     <table cellspacing="10">
@@ -95,11 +96,16 @@ input[type=submit] {
                         </tr>
                         <tr>
                             <td>Phone Number</td>
-                            <td><input type="text" id="txtNum" name="txtNum" value="" /></td>
+                            <td><input type="text" id="txtNum" name="txtNum" value=""
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required>
+                                <span class="note">Format: 123-456-7890</span>
+                  </td>
                         </tr>
                         <tr>
                             <td>Password</td>
-                            <td><input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            <td><input type="password" id="psw" name="psw" pattern="[0-9]{4}"
+                                       title =" Must contain four digits."required></td>
                             
  
                         </tr>
