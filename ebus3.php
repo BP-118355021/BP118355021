@@ -7,8 +7,7 @@
         <div id="menu">
 			<ul>
 				<li><a href="index.php ">Home</a></li>
-				<li><a href="Resume.html">CV</a></li>
-                                <li><a href="tiltedpage_scroll_demo.html">Interests</a></LI>
+				
                                 <li><a href="ConsultingServices.html">Consulting services</a></li>
                                 <li><a href="ebus1.php">EBusiness</a></li>
 			</ul>
