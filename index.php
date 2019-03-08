@@ -10,9 +10,12 @@
   </head>
    <header>
 		<div id = "Title">
-		<h1> IS1113 Project(please run locally as css wont cary over due to vendor) </h1>
-                <h3>Student Number 118355021</h3>
-                <a href="https://is1113-118355021.herokuapp.com">https://is1113-118355021.herokuapp.com</a>
+		<h1> IS1113 Project</h1>
+                <h5>Student Number 118355021</h5>
+                 <a href="https://is1113-118355021.herokuapp.com">https://is1113-118355021.herokuapp.com(please run locally)</a>
+    
+                 
+               
                 
 		</div>
 		
@@ -33,6 +36,8 @@
         <div id = "Content">
 	
 	<div id = "Main">
+              
+                
 
                <h3 align = "center">Project Home Page</h3>
 			  <img src="ucc.png" align="right"  alt="Image">
