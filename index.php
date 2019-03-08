@@ -10,9 +10,10 @@
   </head>
    <header>
 		<div id = "Title">
-		<h1> IS1113 Project </h1>
+		<h1> IS1113 Project(please run locally as css wont cary over due to vendor) </h1>
                 <h3>Student Number 118355021</h3>
                 <a href="https://is1113-118355021.herokuapp.com">https://is1113-118355021.herokuapp.com</a>
+                
 		</div>
 		
    </header>
