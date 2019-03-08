@@ -12,7 +12,7 @@
 		<div id = "Title">
 		<h1> IS1113 Project </h1>
                 <h3>Student Number 118355021</h3>
-                <a href="https://www.livetiles.nyc/3-benefits-virtual-reality">https://is1113-118355021.herokuapp.com</a>
+                <a href="https://is1113-118355021.herokuapp.com">https://is1113-118355021.herokuapp.com</a>
 		</div>
 		
    </header>
